@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-ecmascript",
+  "version": "1.0.0",
+  "description": "ESLint rules for ECMSAScript findings as originally maintained by Aurea CodeReview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aakash Verma",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-plugin-unicorn": "^27.0.0"
+  }
+}
