@@ -12,7 +12,7 @@
   },
   "author": "Aakash Verma",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "eslint-plugin-security": ">= 1.4.0",
     "eslint-plugin-unicorn": ">= 27.0.0"
   },
