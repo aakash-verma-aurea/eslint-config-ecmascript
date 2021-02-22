@@ -1,0 +1,89 @@
+Collections
+- Red
+  - Avoid using
+  - Declare variables outside
+  - Not Using `find`
+  - Use of deprecated for each...in loop
+  - Avoid using IndexOf or findIndex in Array.slice method
+- Yellow
+  - Finding index in array using for-loop
+  - Avoid using IndexOf or findIndex in Array.slice method
+  - for loop instead of every/ some method
+  - Use of forEach to copy an array
+Constants
+- Yellow
+  - Hardcoded HTTP Status Codes
+Control-Structure
+- Red
+  - Duplicated Section/Block of Code
+- Yellow
+  - Consecutive if statements
+  - (Strict equality/inequality comparison with null | undefined)
+  - (Use of logical operators instead of conditional statements)
+Documentation
+Exception Handling
+- Red
+  - Controlling logic by exception
+  - This code may throw an exception
+Formatting Code-Style Readability
+- Red
+  - A Minified Code Has Been Maintained
+  - Orphan statement
+- Yellow
+  - Comma Is Used to Separate Interface or Type Alias Members
+  - Environments configuration values are not properly formatted
+  - Incorrect Grammar
+  - Multiple Operations in a single line
+  - Underscore as Prefix of Public Property Names
+Functions
+- Red
+  - {Avoid Saving References to this. Prefer Arrow Functions or Bind}
+- Yellow
+  - Redundant 'filter' call on the collection
+Good Practice
+- Greens COVERED:
+  - Prefer const and let
+  - Strict equality checking
+  - Prefer spread and rest
+  - Prefer destructuring
+  - Prefer template
+  - Sort imports
+Initialization
+- Red
+  - Use explicitly scoped variable for for...in statement
+- Severes
+  - Using Value as a Type Instead of Assignment
+- Yellow
+  - Avoid using any type (TS)
+  - Using Var or Let to Store Imported Packages
+Logging
+Naming
+- Yellow
+  - Mistyped Variable or Parameter Name - ES/TS/JS
+  - Name Can Be Improved - ES/TS/JS
+  - 
+React
+- Yellow
+  - React.ReactNode is used as the return type for a functional component
+Security
+- Red
+  - Encryption algorithms should be used with secure mode and padding scheme
+- Severe
+  - Disabling Angular Dom Sanitization
+String
+- Red
+  - Comma separated string using IfElse
+- Severe
+  - Incorrect Template Literal Expressions
+  - Unbalanced backtick in template literal
+- Yellow
+  - Complex string literal / template literal
+  - Converting a string to string - ES/TS/JS
+  - Unbalanced double-quotes
+CSS
+*Use stylelint for css related linting"
+Test
+*Skipping as not present in the domain of linting*
+VCS
+- Severe
+  - Conflicted in-place merge must not be committed - ES/TS/JS
