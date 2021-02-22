@@ -1,16 +1,22 @@
 {
-  "name": "eslint-config-ecmascript",
+  "name": "@aakash-verma-aurea/eslint-config-ecmascript",
   "version": "1.0.0",
   "description": "ESLint rules for ECMSAScript findings as originally maintained by Aurea CodeReview",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aakash-verma-aurea/eslint-config-ecmascript.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aakash Verma",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^7.19.0",
-    "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-unicorn": "^27.0.0"
+    "eslint-plugin-security": ">= 1.4.0",
+    "eslint-plugin-unicorn": ">= 27.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7.17.0"
   }
 }

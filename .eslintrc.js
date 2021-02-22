@@ -76,7 +76,7 @@ module.exports = {
         "named": "always",
         "asyncArrow": "always"
       }],
-      "space-in-parens": "never",
+      "space-in-parens": ["error", "never"],
       "space-infix-ops": ["error", { "int32Hint": false }],
       "generator-star-spacing": ["error", {"before": false, "after": true}],
       "semi-spacing": ["error", {"before": false, "after": true}],
