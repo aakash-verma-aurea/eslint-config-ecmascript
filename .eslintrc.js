@@ -10,11 +10,15 @@ module.exports = {
   		es2021: true,
   		node: true
   	},
-    plugins: ["unicorn", "security", "emmanuel"],
+    plugins: ["unicorn", "security"],
     rules: {
       "no-restricted-syntax": [
         "error",
         "WithStatement",
+        {
+          "selector": "BinaryExpression[operator='/'][right='0']",
+          "message": "Division by zero is not allowed"
+        },
         {
           "selector": "IfStatement[consequent.type='IfStatement']",
           "message": ""
@@ -30,7 +34,6 @@ module.exports = {
       "no-cond-assign": ["error", "always"],
       "no-return-assign": ["error", "always"],
       "no-unsafe-finally": "error",
-      "emmanuel/no-divide-by-zero": "error",
       "no-duplicate-case": "error",
       "no-dupe-else-if": "error",
       "no-constant-condition": ["error", { "checkLoops": false }],
