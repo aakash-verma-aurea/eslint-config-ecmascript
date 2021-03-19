@@ -133,7 +133,7 @@ module.exports = {
       "no-self-assign": ["error", {"props": true}],
       "no-alert": "error",
       "no-console": ["error", { allow: ["warn", "error"] }],
-      "detect-non-literal-require": 1,
+      "security/detect-non-literal-require": 1,
       "no-template-curly-in-string": "error",
       "quotes": ["error", "single", {"avoidEscape": true}],
       "require-await": "error"
