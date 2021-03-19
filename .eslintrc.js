@@ -16,10 +16,6 @@ module.exports = {
         "error",
         "WithStatement",
         {
-          "selector": "BinaryExpression[operator='/'][right='0']",
-          "message": "Division by zero is not allowed"
-        },
-        {
           "selector": "IfStatement[consequent.type='IfStatement']",
           "message": ""
         }
