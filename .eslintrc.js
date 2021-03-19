@@ -10,7 +10,7 @@ module.exports = {
   		es2021: true,
   		node: true
   	},
-    plugins: ["unicorn", "security"],
+    plugins: ["unicorn", "security", "emmanuel"],
     rules: {
       "no-restricted-syntax": [
         "error",
